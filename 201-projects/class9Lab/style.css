@@ -1,0 +1,18 @@
+#user-form {
+    max-width: 400px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.title {
+    border: thin black;
+}
+
+legend {
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}

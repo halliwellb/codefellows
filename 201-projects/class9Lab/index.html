@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data</datagrid></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>HTML Form Elements</h1>
+    </header>
+    <main>
+        <form id="new-cookie-form">
+            <fieldset>
+                <!-- <label for =""> MUST match the <input id=""> -->
+                <legend>New Location for Pat's Salmon Cookies</legend>
+                <section>
+                    <label for ="new-location-input">New Store Location at:</label>
+                    <input type="text" placeholder="New Delhi" id="new-location-input" name="new_location">
+                </section>
+                <section>
+                    <label for ="min-cust-input">Minimum Hourly Customers expected:</label>
+                    <input type="text" placeholder="12" id="min-cust-input" name="min_cust">
+                </section>
+                <section>
+                    <label for ="max-cust-input">Maximum Hourly Customers expected:</label>
+                    <input type="text" placeholder="70" id="max-cust-input" name="max_cust">
+                </section>
+                <section>
+                    <label for ="avg-purchase-input">Average number of cookies customers will purchase expected:</label>
+                    <input type="text" placeholder="5" id="avg-purchase-input" name="avg_purchase">
+                </section>
+
+            </fieldset>
+            <fieldset>
+                <legend onclick="click()">Number Data</legend>
+                <section>
+                <label for="number-input" class="title">Enter a number</label>
+                <input type="number" id="number-input" name="number_value">
+                </section>
+                <section>
+                <label for="date-input" class="title">Enter a date</label>
+                <input type="date" name="date_user_input">
+                </section>
+                <!-- <section>
+                <input type="button" value="Click me">
+                </section> -->
+                <!-- <button>Click me (Triggers Submit)</button> -->
+                <section>
+                <button type="submit">Click me!</button>
+                </section>
+            </fieldset>
+            <input type="button" id="test-button" value="Test-Click">
+            <button>Clicker</button>
+        </form>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
