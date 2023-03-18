@@ -4,17 +4,15 @@ html {
 
 header {
     display: flex;
-    /* align-items: baseline;
-    flex-direction: row; */
-    justify-content: space-between ;
+    justify-content: space-between;
     max-width: 960px;
     margin: 0 auto;
 }
 
 #delicious {
-display: flex;
-justify-content: space-between;
-width: 60%;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
 }
 
 h1 {
@@ -24,7 +22,7 @@ h1 {
 #lefthead {
     display: flex;
     align-items: baseline;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: flex-start;
 }
 
@@ -35,7 +33,7 @@ h1 {
 .delicious-column {
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: flex-start;
 }
 
@@ -58,7 +56,6 @@ h2 {
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
-    /* float: right; */
 }
 
 .printer {
@@ -84,7 +81,6 @@ h2 {
 #paper {
     background-image: url(img/list-bg\ \(1\).png);
     display: flex;
-    /* flex-direction: row; */
     width: 750px;
     justify-content: center;
 }
@@ -112,7 +108,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    color:white;
+    color: white;
     background-color: #C46851;
     width: 150px;
     height: 40px;
@@ -123,10 +119,6 @@ footer {
 #author {
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
-    /* align-items: normal;
-    justify-content: space-between;
-    /* margin: 0; */
     align-items: baseline;
     justify-content: space-between;
     align-items: center;
@@ -168,7 +160,3 @@ main {
     height: 75px;
     margin-top: 15px;
 }
-/* .repeat-x {
-    background-image: url("img/banner_img.png");
-    background-repeat: repeat-x;
-} */
